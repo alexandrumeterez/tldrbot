@@ -31,12 +31,3 @@ class BERTtldr:
 
         answer = get_answer(example, features, [result], 20, 30, False)
         print(answer)
-
-
-if __name__ == '__main__':
-    b = BERTtldr('/home/alex/model')
-    doc = """The adult female fly is about 4 mm (0.2 in) long, the male being slightly smaller. The wings are broad and held at an angle away from the body. They are clad with dense tufts of hairlike scales along the veins, and are grey, with a mottled appearance. The wing muscles are relatively weak and the insects mostly run or hop, occasionally making short flights. The males hatch first and only survive for a few days, while unmated females may live for a week."""
-
-    q = 'Who hatches first?'
-
-    b.predict(doc, q)

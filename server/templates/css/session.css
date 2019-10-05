@@ -1,0 +1,33 @@
+.message-bot {
+  background: rgba(223, 229, 121, 0.9);
+  padding: 20px;
+  max-width: 450px;
+  margin-bottom: 10px;
+  text-align: left;
+  float: left;
+}
+
+
+.message-user {
+  background: rgba(223, 229, 121, 0.9);
+  padding: 20px;
+  max-width: 450px;
+  margin-bottom: 10px;
+
+  text-align: right;
+  float: right;
+}
+
+
+
+.container {
+    height: 500px;
+}
+
+.message-box{
+    margin-top: 5%;
+}
+html{
+overflow: hidden;
+}
+
