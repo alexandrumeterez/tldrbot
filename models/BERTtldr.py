@@ -30,4 +30,4 @@ class BERTtldr:
         result = RawResult(unique_id=1000000000, start_logits=to_list(outputs[0][0]), end_logits=to_list(outputs[1][0]))
 
         answer = get_answer(example, features, [result], 20, 30, False)
-        print(answer)
+        return answer
